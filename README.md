@@ -66,36 +66,36 @@ Copyright by smeerws
 
 ### Ausarbeitung Refactoring:
 
-* Was ist Refactoring Definition in eigenen Worten?
+### Was ist Refactoring Definition in eigenen Worten?
 Ein Code wird überarbeitet aber sein Verhalten ändert sich dadurch nicht. Der Code soll übersichtlicher und klarer strukturiert werden und somit der Wartungsaufwand minimiert werden.
 
-* Welche Vorteile/Nachteile birgt Refactoring?
-Vorteile:
+### Welche Vorteile/Nachteile birgt Refactoring?
+* Vorteile:
 Die Struktur ist besser verständlich, überschaubarer, lesbarer und besser testbar.
-Nachteile:
+* Nachteile:
 Man muss mehr Zeit ins Projekt stecken
 
-* Was sind die Refactoring-Schritte?
+### Was sind die Refactoring-Schritte?
 
-    - Umbenennen von Variablen und Methoden.
-    - Einkapseln von Feldern.
-    - Einführung einer neuen abstrakten Oberklasse.
-    - Entfernen und Neuordnen von Parametern.
-    - Umformatieren von Programmcode.
-    - Extraktion von Methoden, Klassen, Paketen und Schnittstellen.
-    - Verbesserung der Datenkapselung.
+* Umbenennen von Variablen und Methoden.
+* Einkapseln von Feldern.
+* Einführung einer neuen abstrakten Oberklasse.
+* Entfernen und Neuordnen von Parametern.
+* Umformatieren von Programmcode.
+* Extraktion von Methoden, Klassen, Paketen und Schnittstellen.
+* Verbesserung der Datenkapselung.
 
 
-* Prinzipien von guten Code?
+### Prinzipien von guten Code?
 - Andere Entwicklern können ihn leicht lesen und verstehen
 - Er kann gut getestet werden
 - Er ist so kurz wie möglich geschrieben
 - Es wiederholt sich nichts
 
-* Was versteht man unter Code Smell?
+### Was versteht man unter Code Smell?
 Funktionierender, aber schlecht strukturierter Quellcode.
 
-* Recherche von 10 Code Smells die Eure Projekt betreffen können, inkl. Beschreibung und Beispiel.
+### Recherche von 10 Code Smells die Eure Projekt betreffen können, inkl. Beschreibung und Beispiel.
 
 
 - Code-Duplikate:
