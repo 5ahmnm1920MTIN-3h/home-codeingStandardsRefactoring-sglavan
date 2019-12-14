@@ -63,3 +63,72 @@ Only one level is implemented.
 
 
 Copyright by smeerws
+
+### Ausarbeitung Refactoring:
+
+* Was ist Refactoring Definition in eigenen Worten?
+Ein Code wird überarbeitet aber sein Verhalten ändert sich dadurch nicht. Der Code soll übersichtlicher und klarer strukturiert werden und somit der Wartungsaufwand minimiert werden.
+
+* Welche Vorteile/Nachteile birgt Refactoring?
+Vorteile:
+Die Struktur ist besser verständlich, überschaubarer, lesbarer und besser testbar.
+Nachteile:
+Man muss mehr Zeit ins Projekt stecken
+
+* Was sind die Refactoring-Schritte?
+
+    - Umbenennen von Variablen und Methoden.
+    - Einkapseln von Feldern.
+    - Einführung einer neuen abstrakten Oberklasse.
+    - Entfernen und Neuordnen von Parametern.
+    - Umformatieren von Programmcode.
+    - Extraktion von Methoden, Klassen, Paketen und Schnittstellen.
+    - Verbesserung der Datenkapselung.
+
+
+* Prinzipien von guten Code?
+- Andere Entwicklern können ihn leicht lesen und verstehen
+- Er kann gut getestet werden
+- Er ist so kurz wie möglich geschrieben
+- Es wiederholt sich nichts
+
+* Was versteht man unter Code Smell?
+Funktionierender, aber schlecht strukturierter Quellcode.
+
+* Recherche von 10 Code Smells die Eure Projekt betreffen können, inkl. Beschreibung und Beispiel.
+
+
+- Code-Duplikate:
+Quellcode der mehrfach verwendet wird (in identischer oder ähnlicher Form)
+
+- Lange Methoden: 
+Je länger eine Methode ist, desto fehleranfälliger ist sie. Zusätzlich erschweren lange Methoden die Wiederverwendung.
+
+- Umfangreiche Parameterlisten: 
+Sie erschweren das Verständnis von Methodenaufrufen, da Attribute von Objekten als Parameterliste übergeben werden, anstatt das Objekt an die Methode zu übergeben.
+
+- Temporäre Felder: 
+Felder einer Klasse beschreiben die Zustände ihrer Objekte, wobei ein Objekt ein Feld nur unter bestimmten Umständen bzw. temporär verwendet, so dass der Code schwer zu verstehen ist.
+
+- Wiederholende Switch-Anweisungen: 
+Sie werden an mehreren Codestellen verwendet, obwohl es besser wäre, sie als eigene Methode zu extrahieren.
+
+- Große Klassen: 
+Eine Klasse ist zu umfangreich, umfasst zu viele Instanzvariablen und duplizierten Code.
+
+- Datenklasse: 
+Klassen mit Feldern und Zugriffsmethoden ohne Funktionalität.
+
+- Datenklumpen: 
+Eine Gruppe von Objekten, welche häufig zusammen vorkommen.
+
+- Unangebrachte Intimität: 
+Zwei Klassen haben zu enge Verflechtungen miteinander.
+
+- Faule Klasse: 
+Eine Klasse leistet zu wenig, um ihre Existenz zu rechtfertigen.
+
+- Middle Man (Vermittler): 
+Eine Klasse delegiert alle Methodenaufrufe an eine andere Klasse.
+
+
