@@ -48,6 +48,9 @@ Refactoring needed:
 * replace magic string
 * replace magic number
 
+## Project state Sarah:
+* Tried to refactor bulletpoints mentioned above; but I'm bad at it. gave my best tho.
+
 ### Limitations: 
 Only one level is implemented. 
 
